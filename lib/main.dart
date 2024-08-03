@@ -26,11 +26,11 @@ class MyHomePage extends StatelessWidget {
       ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, // Number of columns
-          crossAxisSpacing: 10.0, // Space between columns
-          mainAxisSpacing: 10.0, // Space between rows
+          crossAxisCount: 2, 
+          crossAxisSpacing: 10.0, 
+          mainAxisSpacing: 10.0, 
         ),
-        itemCount: 20, // Number of items in the grid
+        itemCount: 20, 
         itemBuilder: (context, index) {
           return Container(
             color: Colors.teal[100 * (index % 9 + 1)],
